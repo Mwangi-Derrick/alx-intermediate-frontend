@@ -1,3 +1,5 @@
+modules = ["nodejs-20"]
+
 [workflows]
 runButton = "Run"
 
@@ -8,4 +10,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 -m http.server 5000 --bind 0.0.0.0"
+args = "npx live-server 0x00-semantic_html --port=3000 --watch=0x00-semantic_html --browser=none"
