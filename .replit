@@ -10,7 +10,7 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npx live-server 0x00-semantic_html --port=3000 --host=0.0.0.0 --no-browser"
+args = "npx live-server  0x02-tailwind-css --port=3000 --host=0.0.0.0 --no-browser"
 
 [[ports]]
 localPort = 3000
